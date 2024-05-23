@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: open_manipulator_p_description
+    relative_path: urdf/open_manipulator_p_with_gripper_robot.urdf.xacro
+  srdf:
+    relative_path: config/open_manipulator_p_with_gripper.srdf
+  package_settings:
+    author_name: kaushal
+    author_email: kaushal.kp@gmail.com
+    generated_timestamp: 1716477543
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

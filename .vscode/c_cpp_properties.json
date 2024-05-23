@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros_drivers/install/rslidar_msg/include/**",
+        "/opt/ros_drivers/install/pointcloud_to_laserscan/include/**",
+        "/home/administrator/ros2_ws/install/open_manipulator_p_libs/include/**",
+        "/home/administrator/ros2_ws/install/robotis_manipulator/include/**",
+        "/home/administrator/ros2_ws/install/open_manipulator_msgs/include/**",
+        "/home/administrator/ros2_ws/install/dynamixel_workbench_toolbox/include/**",
+        "/home/administrator/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/administrator/ros2_ws/install/dynamixel_sdk/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/administrator/ros2_ws/src/DynamixelSDK/dynamixel_sdk/include/**",
+        "/home/administrator/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples/include/**",
+        "/home/administrator/ros2_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/administrator/ros2_ws/src/open_manipulator_p/open_manipulator_p_controller/include/**",
+        "/home/administrator/ros2_ws/src/open_manipulator_p/open_manipulator_p_libs/include/**",
+        "/home/administrator/ros2_ws/src/open_manipulator_p/open_manipulator_p_teleop/include/**",
+        "/home/administrator/ros2_ws/src/robotis_manipulator/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
